@@ -1,0 +1,50 @@
+$device-width: 628px;
+
+.menu-summary {
+    justify-content: center;
+    gap: 5%;
+    margin: 50px 0;
+}
+
+.row-image-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    @media(min-width: $device-width) {
+        width: calc(70vw/3);
+        margin: 0;
+    }
+}
+
+.row-image {
+    object-fit: cover;
+    @media(min-width: $device-width) {
+        // height: 27%;
+        // width: 30%;
+        aspect-ratio: 1.3;
+        width: 100%;
+        max-width: 550px;
+        max-height: 400px;
+    }
+}
+.row-title {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.row-text {
+    line-height: 1.8;
+}
+.row-button {
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.row-button:hover {
+    cursor: pointer;
+}

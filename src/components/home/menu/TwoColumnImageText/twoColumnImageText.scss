@@ -1,0 +1,67 @@
+$flex_direction_1: row;
+
+@media(max-width: 768px) {
+    .twoColumnImageTextContainer {
+        flex-direction: column !important;
+    }
+}
+
+.twoColumnImageTextContainer {
+    display: flex;
+    gap: 5%;
+    margin: 6% 6%;
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+    flex-direction: var(--flex_direction_1);
+    background: #f4f4f4;
+}
+
+// .wrapper {
+//     height: 100%;
+//     width: 100%;
+// }
+
+.twoColumnImage {
+    object-fit: cover;
+    height: 85%;
+    width: 85%;
+    // height: 100%;
+    // width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+
+    @media(min-width: 768px) {
+        height: 50%;
+        width: 50%;
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+.twoColumnTitle {
+    line-height: 1.3;
+
+    @media(min-width: 768px) {
+        line-height: 1.5;
+    }
+}
+
+.twoColumnText {
+    line-height: 1.7;
+    margin: 5% 5% 5% 0;
+    @media(min-width: 768px) {
+        line-height: 2;
+    }
+}
+
+.twoColumnButton {
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.twoColumnButton:hover {
+    cursor: pointer;
+}

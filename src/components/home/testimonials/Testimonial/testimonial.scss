@@ -1,0 +1,23 @@
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(80vw/3);
+    border-radius: 7%;
+    height: fit-content;
+}
+
+.testimonial-text-container {
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.quote-icon {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    height: 35px;
+}
+
+.testimonial-author {
+    text-align: center;
+}

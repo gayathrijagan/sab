@@ -1,0 +1,28 @@
+.image-gallery {
+    height: 300px;
+    padding-left: 50px;
+}
+
+.breakfast {
+    position: absolute;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 70%;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+.image-gallery-image {
+    border-radius: 50px;
+}
+
+.description {
+    font-size: 24px;
+    padding: 0 50px;
+    width: 40%;
+    color: darkgreen;
+    line-height: 1.5;
+    font-family: serif;
+}

@@ -1,0 +1,25 @@
+.navbarcontainer {
+    position: absolute !important;
+}
+
+.elements {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 20px 56px;
+    text-decoration: none;
+
+    @media(min-width: 628px) {
+        justify-content: flex-end;
+    }
+}
+
+.elements > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.elements > a:hover {
+    opacity: 0.6;
+}

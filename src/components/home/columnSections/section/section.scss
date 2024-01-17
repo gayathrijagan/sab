@@ -1,0 +1,30 @@
+@import '../../../constants/styles.scss';
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.content {
+    background-color: #747400; //#747400, #6c1d1d, #af7100, #ac0303
+    margin: 0;
+    padding: 10px;
+    color: white
+}
+
+.heading {
+    
+}
+
+.description {
+    line-height: 1.5;
+}
