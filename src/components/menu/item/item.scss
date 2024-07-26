@@ -1,3 +1,13 @@
 .menuItem {
     width: 50%;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 12px;
+    padding: 8px 0;
+
+    @media(min-width: 768px) {
+        font-size: 16px;
+        padding: 0;
+    }
 }

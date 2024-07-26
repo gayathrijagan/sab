@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div className='phone'>
                 <Phone />
-                <p>+91 8698493301</p>
+                <p>+91 9003403444</p>
             </div>
         </div>
     );

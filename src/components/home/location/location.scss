@@ -27,6 +27,11 @@
 
 .location-text-container {
     margin: auto auto;
+    padding: 0 15px 30px;
+
+    @media(min-width: 628px) {
+        padding: 0
+    }
 }
 
 .location-text-wrapper {

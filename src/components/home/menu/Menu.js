@@ -5,7 +5,7 @@ const Menu = () => {
     const data = [
         {
             category: 'breakfast',
-            image: '/images/pongal_sambar_chutney.jpeg',
+            image: '/images/pongal_sambar_chutney.jpg',
             alt: 'pongal',
             title: 'Simple Tamilian Brekfast',
             text: 'We combine traditional preparations with local ingredients for dishes that are authentic to both their Spanish origins and New York setting.',
@@ -33,12 +33,7 @@ const Menu = () => {
     ]
 
     return (
-        // <>
-        //     <TwoColumnImageText {...data[0]}/>
-        //     <TwoColumnImageText {...data[1]}/>
-        //     <TwoColumnImageText {...data[2]}/>
-        //     <TwoColumnImageText {...data[3]}/>
-        // </>
+    
         <div className='menu-summary'>
             <TwoRowImageText {...data[0]} />
             <TwoRowImageText {...data[1]} />

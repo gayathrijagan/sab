@@ -57,19 +57,23 @@
     font-weight: bolder;
     margin: 0;
     color: rgba(255, 255, 255, 0.85);
+
     @media(min-width: 628px) {
         font-size: 50px;
     }
 }
 
 .banner-sub-text {
-    margin-top: 15px;
+    margin: 25px;
     font-size: 24px;
     color: rgba(255, 255, 255, 0.8);
     text-transform: capitalize;
     font-weight: 500;
+    line-height: 1.5em;
+
     @media(min-width: 628px) {
         font-size: 34px;
+        margin-top: 15px;
     }
 }
 
@@ -92,6 +96,7 @@
     // color: white;
     // border: 1px solid;
 }
+
 // .bannerOverlayText {
 //     position: absolute;
 //     top: 65%;

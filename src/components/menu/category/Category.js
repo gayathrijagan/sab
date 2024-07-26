@@ -1,35 +1,31 @@
 import ReactImageGallery from 'react-image-gallery';
+import './category.scss'
+import Item from "../item/Item";
+import { useTheme, useMediaQuery } from "@material-ui/core";
 
-const breakfast = [
-    {
-        original: '/images/idli1.jpg',
-        originalHeight: '300px'
+const Category = ({ imagePosition, name, ...mealCategory }) => {
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down('768'));
 
-    },
-    {
-        original: '/images/pongal_sambar_chutney.jpeg',
-        originalHeight: '300px'
-
-    },
-]
-
-const Category = () => {
     return (
-        <div className='content'>
-            <div className='breakfast'>
+        <div className='content' id={name}>
+            <h2 className='menu-category'>{name}</h2>
+            <div className={'category-content ' + name}
+                style={isMobile ? { flexDirection: 'column' } :
+                    (imagePosition === 'left' ? { flexDirection: 'row-reverse' } : { flexDirection: 'row' })}>
                 <ReactImageGallery
-                    items={breakfast}
+                    items={mealCategory.images}
                     showFullscreenButton={false}
-                    showPlayButton={false}
+                    showPlayButton={true}
                     showBullets={true}
                     showThumbnails={false}
                     showNav={false}
+                    autoPlay={true}
                 />
-                <div className='description'>
-                    <h3>Breakfast</h3>
-                    <p>
-        
-                    </p>
+                <div className="menuItems">
+                    {mealCategory.items?.map((item, index) =>
+                        (<Item key={name + index} item={item} />)
+                    )}
                 </div>
             </div>
         </div>

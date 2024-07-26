@@ -9,7 +9,8 @@ const NavBar = () => {
     if (pathname === "/") {
         backgroundColor = 'transparent';
     } else {
-        backgroundColor = 'linear-gradient(to left, black, rgba(0, 0, 0, 0.7))';
+        // backgroundColor = 'linear-gradient(to left, black, rgba(0, 0, 0, 0.7))';
+        backgroundColor = "#232621"
     }
 
     const style = {

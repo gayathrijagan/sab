@@ -1,0 +1,15 @@
+.slick-track {
+    display: flex;
+}
+
+.slick-slide {
+    display: flex !important;
+    height: auto;
+    // margin: auto;
+    justify-content: space-around;
+}
+
+div.slick-slide > div {
+    display: flex;
+    height: 100%;
+}

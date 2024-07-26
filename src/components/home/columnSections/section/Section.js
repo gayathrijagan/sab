@@ -2,7 +2,7 @@ import { Box } from '@material-ui/core';
 import './section.scss';
 
 const Section = ({image, heading, description}) => {
-    console.log(image, heading, description)
+
     return (
         <Box className="sectionContainer">
             <img src={image} className="image" />

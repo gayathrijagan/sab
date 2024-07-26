@@ -1,0 +1,35 @@
+@import '../../../constants/styles.scss';
+
+.image-layout-one {
+    max-width: 400px;
+    width: 25vw;
+}
+
+.image-layout-two {
+    max-width: 351px;
+    width: 21.8vw;
+}
+
+.image-section-container {
+    display: flex;
+    gap: 10px
+}
+
+.layout {
+    display: flex;
+    gap: 30px;
+    background-color: $light-base;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
