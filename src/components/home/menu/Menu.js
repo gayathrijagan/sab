@@ -8,27 +8,21 @@ const Menu = () => {
             image: '/images/pongal_sambar_chutney.jpg',
             alt: 'pongal',
             title: 'Simple Tamilian Brekfast',
-            text: 'We combine traditional preparations with local ingredients for dishes that are authentic to both their Spanish origins and New York setting.',
+            text: 'Our breakfast features traditional delights like soft idlis, crispy dosas, and a variety of food, served with various chutnies and tangy sambar. These wholesome, flavorful dishes are a perfect start to the day, offering a blend of nutrition and authentic South Indian taste.',
         },
         {
             category: 'lunch',
             image: '/images/meals.jpeg',
             alt: 'pongal',
-            title: 'No-onion No-garlic lunch',
-            text: 'We combine traditional preparations with local ingredients for dishes that are authentic to both their Spanish origins and New York setting.',
+            title: 'stomach filling lunch',
+            text: 'Our lunch includes traditional rice, sambar, and rasam, with options for no-onion, no-garlic, and jain food. Enjoy a variety of North Indian dishes like paneer masala, alongside Chinese favorites such as fried rice and munchurian, offering a diverse, satisfying meal for everyone.',
         },
         {
             category: 'dinner',
             image: '/images/parotta_kurma.jpeg',
             alt: 'pongal',
             title: 'Indo-Chinese Dinner',
-            text: 'We combine traditional preparations with local ingredients for dishes that are authentic to both their Spanish origins and New York setting.',
-        },
-        {
-            image: '/images/bananaLeaf.jpeg',
-            alt: 'pongal',
-            title: 'Tapas originated in the Catalonian region of Spain and are small plates typically consumed with wine or vermouth.',
-            text: 'We combine traditional preparations with local ingredients for dishes that are authentic to both their Spanish origins and New York setting.',
+            text: 'Our dinner features Madurai favorite flaky parotta, crispy dosa, and fluffy idly among other tamil delicacies with a few North Indian dishes. Enjoy our fusion twist creating a delightful blend of Indian and Chinese culinary for a unique and satisfying dining experience.',
         }
     ]
 
