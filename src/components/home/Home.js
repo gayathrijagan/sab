@@ -33,7 +33,7 @@ const Home = () => {
     const homepageTop = {
         title: 'Sri Acharya Bhavan',
         description: 'Restaurant & Catering',
-        subText: 'Pure Vegetarian',
+        subText: 'Hyper Vegeterian',
         image: '/images/vada.jpeg',
         alt: 'vada sambhar',
         gradient: 'linear'
@@ -44,7 +44,7 @@ const Home = () => {
         description: 'We cater!',
         subText: 'experience bhramin style complete food on your special days',
         image: '/images/catering.jpeg',
-        buttonText: 'explore our catering services',
+        // buttonText: 'explore our catering services',
         alt: 'south indian meals',
         gradient: 'radial'
     }
